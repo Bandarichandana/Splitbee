@@ -1,0 +1,177 @@
+* {
+  margin: 0%;
+}
+
+.TriangleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 130px;
+}
+.triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid white;
+}
+.header {
+  background-color: black;
+  line-height: 2;
+  padding-right: 10px;
+}
+
+.vercel {
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 30px;
+}
+
+.header-right {
+  color: white;
+}
+
+.bold {
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.headerWrapper {
+  margin-left: 50%;
+}
+.splitbee-logo {
+  mix-blend-mode: darken;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+nav {
+  display: flex;
+}
+.navbar {
+  margin-left: 48%;
+  margin-top: 2rem;
+}
+
+.navbar ol {
+  display: flex;
+  gap: 20px;
+  text-align: end;
+}
+.navbar ol li {
+  list-style: none;
+  font-size: 18px;
+}
+.website {
+  text-align: center;
+}
+.website h1 {
+  color: #2f2f3f;
+  line-height: 2;
+  font-size: 36px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.website p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #6b7280;
+  font-weight: 700;
+}
+
+button {
+  background-color: #ffca1c;
+  margin-top: 60px;
+  font-size: 16px;
+  padding: 16px 60px;
+  border-radius: 15px;
+  border: none;
+}
+
+.trade img {
+  width: 70%;
+  height: 500px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 35px;
+}
+
+.react {
+  position: absolute;
+  top: 545px;
+  right: 100px;
+  z-index: 1;
+  width: 25%;
+  height: 425;
+  transform: rotate(2deg);
+  border-radius: 10px;
+}
+
+.bg {
+  height: 550;
+  width: auto;
+}
+.split-bee {
+  background: linear-gradient(
+      0deg,
+      rgba(29, 47, 67, 0.05) 19.16%,
+      rgba(196, 196, 196, 0) 59.55%
+    ),
+    radial-gradient(
+      102.29% 81.78% at 50% 30%,
+      rgba(255, 255, 255, 0) 5%,
+      rgb(211, 219, 227) 100%
+    );
+}
+
+.love {
+  background: linear-gradient(
+      0deg,
+      rgba(29, 47, 67, 0.05) 19.16%,
+      rgba(196, 196, 196, 0) 59.55%
+    ),
+    radial-gradient(
+      102.29% 81.78% at 50% 30%,
+      rgba(255, 255, 255, 0) 5%,
+      rgb(211, 219, 227) 100%
+    );
+  height: 700px;
+}
+.para {
+  margin-left: -70px;
+}
+
+.footer {
+  background: linear-gradient(
+    rgb(94, 59, 0) 20.47%,
+    rgb(64, 40, 0) 50.63%,
+    rgb(21, 13, 0) 100%
+  );
+  width: 100%;
+  height: 700px;
+  margin-top: 250px;
+}
+
+.honeyStick {
+  background: radial-gradient(
+      97.46% 1063.87% at 98.69% 95.45%,
+      rgb(255, 217, 142) 0%,
+      rgb(255, 203, 108) 17.71%,
+      rgb(255, 172, 30) 58.6%,
+      rgb(255, 160, 0) 100%
+    ),
+    rgb(169, 111, 0);
+    width:100%;
+    height:350px;
+    z-index: 1;
+    position: relative;
+    
+    bottom:130px;
+    border-radius: 30px;
+
+}
